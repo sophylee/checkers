@@ -6,7 +6,7 @@ Checkers game, written in Ruby.
 
 1. `gem install colorize`
 2. `ruby game.rb`
-3. Specify coordinates to make a move in the format `[[start_row,start_col],[end_row,end_col]]`.
+3. Specify coordinates to make a move in the format `[[start_row, start_col], [end_row, end_col]]`.
 For example, `[[5, 1], [4, 2]]`.
 
 ## Future add-ons
