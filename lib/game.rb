@@ -1,14 +1,8 @@
 # encoding: UTF-8
 
-# Turn-taking is not implemented
-## When a piece moves to the end of the board, it becomes a king
-## but cannot move like a king. This might have to do with the 
-## piece's king status not being updated properly on the dup'd 
-## board. 
-
-require "./board.rb"
-require "./player.rb"
-require './piece.rb'
+require "./lib/board.rb"
+require "./lib/player.rb"
+require './lib/piece.rb'
 
 class Game
   attr_accessor :color
