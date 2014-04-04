@@ -1,0 +1,11 @@
+[[5, 1], [4, 2]]
+[[2, 6], [3, 7]]
+[[1, 7], [2, 6]]
+[[0, 6], [1, 7]]
+[[2, 4], [3, 3]]
+[[4, 2], [2, 4], [0, 6]]
+[[0, 6], [1, 5]]
+
+# This set of moves violates turns but tests whether 
+## a piece can take another piece and whether a piece
+## can move backwards once it becomes a king.
